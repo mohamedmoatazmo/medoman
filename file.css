@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(rgb(178, 178, 238),blue);
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+header{
+    justify-content: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px 10px;
+    align-items: center;
+}
+
+header h1 a{
+    position: relative;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    width: 20px;
+    border-radius: 20px;
+}
+
+header h1 a:hover{
+    color: aliceblue;
+    background-color: black;
+}
+
+header ul{
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+}
+
+header ul li{
+    padding: 8px 8px;
+    color: aqua;
+
+    
+}
+
+
+header ul li a{
+    width: auto;
+
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+
+header ul li a:hover{
+    background-color: black;
+    color: aqua;
+    width: 50px;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+section h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transform: translateY(20px);
+    color: rgb(255, 255, 255);
+}
+
+section h2:hover{
+    color: aqua;
+    cursor: col-resize;
+    background: linear-gradient(white,transparent);
+
+}
+
+
+.pp{
+    font-size: 100px;
+    position: relative;
+    transform: translateY(160px);
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    width: 20px 20px;
+}
+
+.pp:hover{
+    color: black;
+    cursor: crosshair;
+    background: linear-gradient(red,rgb(76, 8, 8));
+}
